@@ -1,0 +1,270 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /uvm_pkg
+=== Design Unit: work.uvm_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1            1            0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uvm_pkg/uvm_component_name_check_visitor/visit/immed__262
+                     /vol/mentor/questa_sim-2019.3_2/questasim/verilog_src/uvm-1.2/src/base/uvm_traversal.svh(262)
+                                                        0          1
+
+=================================================================================
+=== Instance: /my_uvm_package
+=== Design Unit: work.my_uvm_package
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      2           na           na    48.75%
+        Coverpoints/Crosses          5           na           na        na
+            Covergroup Bins         24           11           13    45.83%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /my_uvm_package/my_uvm_cov_subscriber/cg_class 
+                                                       10.00%        100          -    Uncovered            
+    covered/total bins:                                     1         10          -                      
+    missing/total bins:                                     9         10          -                      
+    % Hit:                                             10.00%        100          -                      
+    Coverpoint cp_class                                10.00%        100          -    Uncovered            
+        covered/total bins:                                 1         10          -                      
+        missing/total bins:                                 9         10          -                      
+        % Hit:                                         10.00%        100          -                      
+        bin cls0                                            0          1          -    ZERO                 
+        bin cls1                                            0          1          -    ZERO                 
+        bin cls2                                            0          1          -    ZERO                 
+        bin cls3                                            0          1          -    ZERO                 
+        bin cls4                                            0          1          -    ZERO                 
+        bin cls5                                            0          1          -    ZERO                 
+        bin cls6                                            0          1          -    ZERO                 
+        bin cls7                                            1          1          -    Covered              
+        bin cls8                                            0          1          -    ZERO                 
+        bin cls9                                            0          1          -    ZERO                 
+        default bin out_of_range                            0                     -    ZERO                 
+ Covergroup instance \/my_uvm_package::my_uvm_cov_subscriber::cg_class  
+                                                       10.00%        100          -    Uncovered            
+    covered/total bins:                                     1         10          -                      
+    missing/total bins:                                     9         10          -                      
+    % Hit:                                             10.00%        100          -                      
+    Coverpoint cp_class                                10.00%        100          -    Uncovered            
+        covered/total bins:                                 1         10          -                      
+        missing/total bins:                                 9         10          -                      
+        % Hit:                                         10.00%        100          -                      
+        bin cls0                                            0          1          -    ZERO                 
+        bin cls1                                            0          1          -    ZERO                 
+        bin cls2                                            0          1          -    ZERO                 
+        bin cls3                                            0          1          -    ZERO                 
+        bin cls4                                            0          1          -    ZERO                 
+        bin cls5                                            0          1          -    ZERO                 
+        bin cls6                                            0          1          -    ZERO                 
+        bin cls7                                            1          1          -    Covered              
+        bin cls8                                            0          1          -    ZERO                 
+        bin cls9                                            0          1          -    ZERO                 
+        default bin out_of_range                            0                     -    ZERO                 
+ TYPE /my_uvm_package/my_uvm_cov_subscriber/cg_layers 
+                                                       87.50%        100          -    Uncovered            
+    covered/total bins:                                    10         14          -                      
+    missing/total bins:                                     4         14          -                      
+    % Hit:                                             71.42%        100          -                      
+    Coverpoint cp_l0_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_l1_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_result_valid                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          818          1          -    Covered              
+        bin fire                                            1          1          -    Covered              
+    Cross cx_pipeline_activity                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 4          8          -                      
+        missing/total bins:                                 4          8          -                      
+        % Hit:                                         50.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <idle,idle,fire>                            1          1          -    Covered              
+            bin <idle,fire,idle>                           10          1          -    Covered              
+            bin <fire,idle,idle>                           10          1          -    Covered              
+            bin <idle,idle,idle>                          798          1          -    Covered              
+            bin <fire,fire,*>                               0          1          2    ZERO                 
+            bin <fire,*,fire>                               0          1          2    ZERO                 
+            bin <*,fire,fire>                               0          1          2    ZERO                 
+ Covergroup instance \/my_uvm_package::my_uvm_cov_subscriber::cg_layers  
+                                                       87.50%        100          -    Uncovered            
+    covered/total bins:                                    10         14          -                      
+    missing/total bins:                                     4         14          -                      
+    % Hit:                                             71.42%        100          -                      
+    Coverpoint cp_l0_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_l1_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_result_valid                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          818          1          -    Covered              
+        bin fire                                            1          1          -    Covered              
+    Cross cx_pipeline_activity                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 4          8          -                      
+        missing/total bins:                                 4          8          -                      
+        % Hit:                                         50.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <idle,idle,fire>                            1          1          -    Covered              
+            bin <idle,fire,idle>                           10          1          -    Covered              
+            bin <fire,idle,idle>                           10          1          -    Covered              
+            bin <idle,idle,idle>                          798          1          -    Covered              
+            bin <fire,fire,*>                               0          1          2    ZERO                 
+            bin <fire,*,fire>                               0          1          2    ZERO                 
+            bin <*,fire,fire>                               0          1          2    ZERO                 
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /my_uvm_package/my_uvm_cov_subscriber/cg_class 
+                                                       10.00%        100          -    Uncovered            
+    covered/total bins:                                     1         10          -                      
+    missing/total bins:                                     9         10          -                      
+    % Hit:                                             10.00%        100          -                      
+    Coverpoint cp_class                                10.00%        100          -    Uncovered            
+        covered/total bins:                                 1         10          -                      
+        missing/total bins:                                 9         10          -                      
+        % Hit:                                         10.00%        100          -                      
+        bin cls0                                            0          1          -    ZERO                 
+        bin cls1                                            0          1          -    ZERO                 
+        bin cls2                                            0          1          -    ZERO                 
+        bin cls3                                            0          1          -    ZERO                 
+        bin cls4                                            0          1          -    ZERO                 
+        bin cls5                                            0          1          -    ZERO                 
+        bin cls6                                            0          1          -    ZERO                 
+        bin cls7                                            1          1          -    Covered              
+        bin cls8                                            0          1          -    ZERO                 
+        bin cls9                                            0          1          -    ZERO                 
+        default bin out_of_range                            0                     -    ZERO                 
+ Covergroup instance \/my_uvm_package::my_uvm_cov_subscriber::cg_class  
+                                                       10.00%        100          -    Uncovered            
+    covered/total bins:                                     1         10          -                      
+    missing/total bins:                                     9         10          -                      
+    % Hit:                                             10.00%        100          -                      
+    Coverpoint cp_class                                10.00%        100          -    Uncovered            
+        covered/total bins:                                 1         10          -                      
+        missing/total bins:                                 9         10          -                      
+        % Hit:                                         10.00%        100          -                      
+        bin cls0                                            0          1          -    ZERO                 
+        bin cls1                                            0          1          -    ZERO                 
+        bin cls2                                            0          1          -    ZERO                 
+        bin cls3                                            0          1          -    ZERO                 
+        bin cls4                                            0          1          -    ZERO                 
+        bin cls5                                            0          1          -    ZERO                 
+        bin cls6                                            0          1          -    ZERO                 
+        bin cls7                                            1          1          -    Covered              
+        bin cls8                                            0          1          -    ZERO                 
+        bin cls9                                            0          1          -    ZERO                 
+        default bin out_of_range                            0                     -    ZERO                 
+ TYPE /my_uvm_package/my_uvm_cov_subscriber/cg_layers 
+                                                       87.50%        100          -    Uncovered            
+    covered/total bins:                                    10         14          -                      
+    missing/total bins:                                     4         14          -                      
+    % Hit:                                             71.42%        100          -                      
+    Coverpoint cp_l0_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_l1_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_result_valid                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          818          1          -    Covered              
+        bin fire                                            1          1          -    Covered              
+    Cross cx_pipeline_activity                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 4          8          -                      
+        missing/total bins:                                 4          8          -                      
+        % Hit:                                         50.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <idle,idle,fire>                            1          1          -    Covered              
+            bin <idle,fire,idle>                           10          1          -    Covered              
+            bin <fire,idle,idle>                           10          1          -    Covered              
+            bin <idle,idle,idle>                          798          1          -    Covered              
+            bin <fire,fire,*>                               0          1          2    ZERO                 
+            bin <fire,*,fire>                               0          1          2    ZERO                 
+            bin <*,fire,fire>                               0          1          2    ZERO                 
+ Covergroup instance \/my_uvm_package::my_uvm_cov_subscriber::cg_layers  
+                                                       87.50%        100          -    Uncovered            
+    covered/total bins:                                    10         14          -                      
+    missing/total bins:                                     4         14          -                      
+    % Hit:                                             71.42%        100          -                      
+    Coverpoint cp_l0_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_l1_valid                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          809          1          -    Covered              
+        bin fire                                           10          1          -    Covered              
+    Coverpoint cp_result_valid                        100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin idle                                          818          1          -    Covered              
+        bin fire                                            1          1          -    Covered              
+    Cross cx_pipeline_activity                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 4          8          -                      
+        missing/total bins:                                 4          8          -                      
+        % Hit:                                         50.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <idle,idle,fire>                            1          1          -    Covered              
+            bin <idle,fire,idle>                           10          1          -    Covered              
+            bin <fire,idle,idle>                           10          1          -    Covered              
+            bin <idle,idle,idle>                          798          1          -    Covered              
+            bin <fire,fire,*>                               0          1          2    ZERO                 
+            bin <fire,*,fire>                               0          1          2    ZERO                 
+            bin <*,fire,fire>                               0          1          2    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 48.75%  COVERGROUP TYPES: 2
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uvm_pkg/uvm_component_name_check_visitor/visit/immed__262
+                     /vol/mentor/questa_sim-2019.3_2/questasim/verilog_src/uvm-1.2/src/base/uvm_traversal.svh(262)
+                                                        0          1
+
+Total Coverage By Instance (filtered view): 74.37%
+
