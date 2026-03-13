@@ -1,0 +1,20 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance neuron_input[31:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance neuron_input[31:0] (in view: work.layer_32s_14s_10s_10s_4s_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance dout[31:0] (in view: work.fifo_32s_16s_5s_2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance dout[31:0] (in view: work.fifo_32s_16s_5s_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":34:4:34:12|Removing sequential instance fifo_buf[31:0] (in view: work.fifo_32s_16s_5s_2(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":34:4:34:12|Removing sequential instance fifo_buf[31:0] (in view: work.fifo_32s_16s_5s_1(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance output_buffer\[0\][31:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|Removing sequential instance y_1[30:0] (in view: work.neuron_32s_784s_14s_0_10s_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file /home/tei0259/CE 387/HW8/syn/rev_1/top_nn.sap.
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|There are no possible illegal states for state machine state[3:0] (in view: work.neuron_32s_784s_14s_0_10s_Z2(verilog)); safe FSM implementation is not required.
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|There are no possible illegal states for state machine state[3:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog)); safe FSM implementation is not required.
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|There are no possible illegal states for state machine state[3:0] (in view: work.neuron_32s_10s_14s_0_4s_Z4(verilog)); safe FSM implementation is not required.
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|There are no possible illegal states for state machine state[3:0] (in view: work.layer_32s_14s_10s_10s_4s_Z3(verilog)); safe FSM implementation is not required.

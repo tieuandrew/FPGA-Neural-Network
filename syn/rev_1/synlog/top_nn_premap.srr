@@ -1,0 +1,155 @@
+# Sat Mar  7 17:55:32 2026
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.10 (Ootpa)
+Hostname: joker.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 126617
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Intel FPGA Technology Pre-mapping, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: /home/tei0259/CE 387/HW8/syn/rev_1/top_nn_scck.rpt 
+Printing clock  summary report in "/home/tei0259/CE 387/HW8/syn/rev_1/top_nn_scck.rpt" file 
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@N: MF284 |Setting synthesis effort to medium for the design
+
+Finished Clear Box Flow. (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 120MB)
+
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[7][31:0] because it is equivalent to instance u_layer0.output_buffer[6][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[6][31:0] because it is equivalent to instance u_layer0.output_buffer[5][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[9][31:0] because it is equivalent to instance u_layer0.output_buffer[5][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[5][31:0] because it is equivalent to instance u_layer0.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[3][31:0] because it is equivalent to instance u_layer0.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[2][31:0] because it is equivalent to instance u_layer0.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[8][31:0] because it is equivalent to instance u_layer0.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[4][31:0] because it is equivalent to instance u_layer0.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer0.output_buffer[1][31:0] because it is equivalent to instance u_layer0.output_buffer[0][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[7][31:0] because it is equivalent to instance u_layer1.output_buffer[6][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[6][31:0] because it is equivalent to instance u_layer1.output_buffer[5][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[9][31:0] because it is equivalent to instance u_layer1.output_buffer[5][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[5][31:0] because it is equivalent to instance u_layer1.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[3][31:0] because it is equivalent to instance u_layer1.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[2][31:0] because it is equivalent to instance u_layer1.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[8][31:0] because it is equivalent to instance u_layer1.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[4][31:0] because it is equivalent to instance u_layer1.output_buffer[1][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance u_layer1.output_buffer[1][31:0] because it is equivalent to instance u_layer1.output_buffer[0][31:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance neuron_input[31:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance neuron_input[31:0] (in view: work.layer_32s_14s_10s_10s_4s_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance dout[31:0] (in view: work.fifo_32s_16s_5s_2(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance dout[31:0] (in view: work.fifo_32s_16s_5s_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":34:4:34:12|Removing sequential instance fifo_buf[31:0] (in view: work.fifo_32s_16s_5s_2(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":34:4:34:12|Removing sequential instance fifo_buf[31:0] (in view: work.fifo_32s_16s_5s_1(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Removing sequential instance output_buffer\[0\][31:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|Removing sequential instance y_1[30:0] (in view: work.neuron_32s_784s_14s_0_10s_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 120MB)
+
+
+
+Clock Summary
+******************
+
+          Start            Requested     Requested     Clock        Clock                     Clock
+Level     Clock            Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------
+0 -       System           1.0 MHz       1000.000      system       system_clkgroup           0    
+                                                                                                   
+0 -       top_nn|clock     270.5 MHz     3.697         inferred     Autoconstr_clkgroup_0     328  
+===================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                 Clock     Source          Clock Pin              Non-clock Pin     Non-clock Pin
+Clock            Load      Pin             Seq Example            Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------
+System           0         -               -                      -                 -            
+                                                                                                 
+top_nn|clock     328       clock(port)     u_argmax.y_wr_en.C     -                 -            
+=================================================================================================
+
+@W: MT529 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":62:4:62:12|Found inferred clock top_nn|clock which controls 328 sequential elements including u_input_fifo.empty. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/tei0259/CE 387/HW8/syn/rev_1/top_nn.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 120MB)
+
+Encoding state machine state[3:0] (in view: work.neuron_32s_784s_14s_0_10s_Z2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|There are no possible illegal states for state machine state[3:0] (in view: work.neuron_32s_784s_14s_0_10s_Z2(verilog)); safe FSM implementation is not required.
+Encoding state machine state[3:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|There are no possible illegal states for state machine state[3:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog)); safe FSM implementation is not required.
+Encoding state machine state[3:0] (in view: work.neuron_32s_10s_14s_0_4s_Z4(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|There are no possible illegal states for state machine state[3:0] (in view: work.neuron_32s_10s_14s_0_4s_Z4(verilog)); safe FSM implementation is not required.
+Encoding state machine state[3:0] (in view: work.layer_32s_14s_10s_10s_4s_Z3(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|There are no possible illegal states for state machine state[3:0] (in view: work.layer_32s_14s_10s_10s_4s_Z3(verilog)); safe FSM implementation is not required.
+Encoding state machine state[2:0] (in view: work.argmax_32s_10s_4s_4s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 120MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 120MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 34MB peak: 120MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar  7 17:55:33 2026
+
+###########################################################]

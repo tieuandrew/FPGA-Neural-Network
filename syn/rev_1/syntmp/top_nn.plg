@@ -1,0 +1,13 @@
+@P:  Part : ep4ce6ea22-7
+@P:  Worst Slack : -1.204
+@P:  top_nn|clock - Estimated Frequency : 124.6 MHz
+@P:  top_nn|clock - Requested Frequency : 146.6 MHz
+@P:  top_nn|clock - Estimated Period : 8.024
+@P:  top_nn|clock - Requested Period : 6.821
+@P:  top_nn|clock - Slack : -1.204
+@P: top_nn Part : ep4ce6ea22-7
+@P: top_nn I/O ATOMs : 3
+@P: top_nn Total LUTs : 256 
+@P: top_nn Register bits : 138
+@P: top_nn DSP Blocks : 0 (0 nine-bit DSP elements)
+@P:  CPU Time : 0h:00m:02s

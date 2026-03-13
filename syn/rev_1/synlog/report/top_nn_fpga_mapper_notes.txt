@@ -1,0 +1,58 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|Removing sequential instance acc[31:0] (in view: work.neuron_32s_784s_14s_0_10s_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MT206 |Auto Constrain mode is enabled
+@N: MF236 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":17:24:17:82|Generating a type sdiv divider 
+@N: MO231 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":41:4:41:12|Found counter in view:work.top_nn(verilog) instance u_hidden_fifo.wr_addr[4:0] 
+@N: MO231 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":54:4:54:12|Found counter in view:work.top_nn(verilog) instance u_hidden_fifo.rd_addr[4:0] 
+@N: MO231 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":41:4:41:12|Found counter in view:work.top_nn(verilog) instance u_input_fifo.wr_addr[4:0] 
+@N: MO231 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":54:4:54:12|Found counter in view:work.top_nn(verilog) instance u_input_fifo.rd_addr[4:0] 
+@N: MO231 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Found counter in view:work.layer_32s_14s_784s_10s_10s_Z1(verilog) instance output_idx[3:0] 
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|There are no possible illegal states for state machine state[3:0] (in view: work.layer_32s_14s_784s_10s_10s_Z1(verilog)); safe FSM implementation is not required.
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|There are no possible illegal states for state machine state[3:0] (in view: work.neuron_32s_784s_14s_0_10s_Z2(verilog)); safe FSM implementation is not required.
+@N: MO231 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Found counter in view:work.layer_32s_14s_10s_10s_4s_Z3(verilog) instance output_idx[3:0] 
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|There are no possible illegal states for state machine state[3:0] (in view: work.layer_32s_14s_10s_10s_4s_Z3(verilog)); safe FSM implementation is not required.
+@N: MO225 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|There are no possible illegal states for state machine state[3:0] (in view: work.neuron_32s_10s_14s_0_4s_Z4(verilog)); safe FSM implementation is not required.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[0] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[1] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[2] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[3] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[4] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[5] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[6] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[7] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[8] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[9] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[10] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[11] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[12] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[13] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[14] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[15] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[16] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[17] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[18] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[19] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[20] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[21] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[22] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[23] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[24] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[25] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[26] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[27] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[28] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[29] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[30] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/tei0259/CE 387/HW8/sv/fifo.sv":49:4:49:12|Removing sequential instance u_final_fifo.dout[31] (in view: work.top_nn(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FA100 :|Instance "u_argmax.best_value_1_0_0__g0_e" with "32" loads has been replicated "1" time(s) due to hard fanout limit of "30" 
+@N: MF321 |1 registers to be packed into RAMs/DSPs blocks 
+@N: MF322 |Retiming summary: 5 registers retimed to 15 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.

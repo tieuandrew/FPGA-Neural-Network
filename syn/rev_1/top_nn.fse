@@ -1,0 +1,58 @@
+
+fsm_encoding {13600605} sequential
+
+fsm_state_encoding {13600605} IDLE {00}
+
+fsm_state_encoding {13600605} STREAM_INPUTS {01}
+
+fsm_state_encoding {13600605} WAIT_OUTPUTS {10}
+
+fsm_state_encoding {13600605} WRITE_OUTPUTS {11}
+
+fsm_registers {13600605} {state[1]}  {state[0]} 
+
+fsm_encoding {12310314} sequential
+
+fsm_state_encoding {12310314} s0 {00}
+
+fsm_state_encoding {12310314} s1 {01}
+
+fsm_state_encoding {12310314} s2 {10}
+
+fsm_state_encoding {12310314} s3 {11}
+
+fsm_registers {12310314} {state[1]}  {state[0]} 
+
+fsm_encoding {13600603} sequential
+
+fsm_state_encoding {13600603} IDLE {00}
+
+fsm_state_encoding {13600603} STREAM_INPUTS {01}
+
+fsm_state_encoding {13600603} WAIT_OUTPUTS {10}
+
+fsm_state_encoding {13600603} WRITE_OUTPUTS {11}
+
+fsm_registers {13600603} {state[1]}  {state[0]} 
+
+fsm_encoding {12310312} sequential
+
+fsm_state_encoding {12310312} s0 {00}
+
+fsm_state_encoding {12310312} s1 {01}
+
+fsm_state_encoding {12310312} s2 {10}
+
+fsm_state_encoding {12310312} s3 {11}
+
+fsm_registers {12310312} {state[1]}  {state[0]} 
+
+fsm_encoding {14300301} sequential
+
+fsm_state_encoding {14300301} IDLE {00}
+
+fsm_state_encoding {14300301} COLLECT {01}
+
+fsm_state_encoding {14300301} HOLD_OUTPUT {10}
+
+fsm_registers {14300301} {state[1]}  {state[0]} 

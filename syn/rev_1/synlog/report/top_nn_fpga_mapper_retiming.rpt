@@ -1,0 +1,26 @@
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 5 registers retimed to 15
+
+Original and Pipelined registers replaced by retiming :
+		u_argmax.best_class[0]
+		u_argmax.best_class[1]
+		u_argmax.best_class[2]
+		u_argmax.best_class[3]
+
+New registers created by retiming :
+		u_argmax.best_class_ret
+		u_argmax.best_class_ret_1
+		u_argmax.best_class_ret_2
+		u_argmax.best_class_ret_3
+		u_argmax.best_class_ret_5
+		u_argmax.best_class_ret_6
+		u_argmax.best_class_ret_9
+		u_argmax.best_class_ret_10
+		u_argmax.best_class_ret_11
+		u_argmax.best_class_ret_12
+
+
+		#####   END RETIMING REPORT  #####
+

@@ -1,0 +1,36 @@
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|Optimizing register bit y[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|Pruning register bit 31 of y[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Pruning unused register output_valid[0:9]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|Optimizing register bit y[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"/home/tei0259/CE 387/HW8/sv/neuron.sv":31:0:31:8|Pruning register bit 31 of y[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"/home/tei0259/CE 387/HW8/sv/layer.sv":60:0:60:8|Pruning unused register output_valid[0:9]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Optimizing register bit out_dout[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/tei0259/CE 387/HW8/sv/argmax.sv":30:0:30:8|Pruning register bits 31 to 4 of out_dout[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

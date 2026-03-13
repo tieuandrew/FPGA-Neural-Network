@@ -1,0 +1,1 @@
+-link -encrypt -top NoName -osyn "/home/tei0259/CE 387/HW8/syn/rev_1/synwork/top_nn_comp.srs" "/home/tei0259/CE 387/HW8/syn/rev_1/synwork/layer0.srs"  -jobname linker  

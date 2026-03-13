@@ -1,0 +1,11 @@
+
+. Module name, ATOMS, ARITHMETIC MODE, REGISTERS, SYNC RAMS, MACs
+. top_nn, 191, 0, 138, 1, 0
+.	. argmax_32s_10s_4s_4s, 24, 0, 53, 0, 0
+.	. fifo_32s_16s_5s, 22, 0, 11, 0, 0
+.	. fifo_32s_16s_5s_0, 26, 0, 11, 1, 0
+.	. fifo_32s_16s_5s_1, 23, 0, 15, 0, 0
+.	. layer_32s_14s_10s_10s_4s_Z3, 37, 0, 18, 0, 0
+.	.	. neuron_32s_10s_14s_0_4s_Z4, 11, 0, 7, 0, 0
+.	. layer_32s_14s_784s_10s_10s_Z1, 59, 0, 30, 0, 0
+.	.	. neuron_32s_784s_14s_0_10s_Z2, 21, 0, 13, 0, 0

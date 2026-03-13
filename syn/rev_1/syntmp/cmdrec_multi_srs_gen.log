@@ -1,0 +1,8 @@
+/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter  -link  -multisrs  "/home/tei0259/CE 387/HW8/syn/rev_1/synwork/top_nn_comp.srs"  -osyn  "/home/tei0259/CE 387/HW8/syn/rev_1/synwork/top_nn_mult.srs"  -log  "/home/tei0259/CE 387/HW8/syn/rev_1/synlog/top_nn_multi_srs_gen.srr" 
+relcom:/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter -link -multisrs "/home/tei0259/CE 387/HW8/syn/rev_1/synwork/top_nn_comp.srs" -osyn "/home/tei0259/CE 387/HW8/syn/rev_1/synwork/top_nn_mult.srs" -log "/home/tei0259/CE 387/HW8/syn/rev_1/synlog/top_nn_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:../synwork/top_nn_comp.srs|io:i|time:1772927720|size:26220|exec:0|csum:291234C6567C67C2ADA07F735FA23F41
+file:../synwork/top_nn_mult.srs|io:o|time:1772927721|size:7207|exec:0|csum:
+file:../synlog/top_nn_multi_srs_gen.srr|io:o|time:1772927721|size:1478|exec:0|csum:
+file:/vol/synopsys/fpga/O-2018.09-SP1/linux_a_64/syn_nfilter|io:i|time:1543382463|size:12202632|exec:1|csum:2CF5CA82A12C53A85C3E36D57C2461DC
+file:/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter|io:i|time:1543382354|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

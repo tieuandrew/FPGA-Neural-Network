@@ -1,0 +1,29 @@
+fsm_options -device {state[2:0]}
+
+define_state IDLE 00 {/home/tei0259/CE 387/HW8/sv/argmax.sv} 71 8 71 11
+state_output IDLE {state[0]} 1
+
+define_state COLLECT 01 {/home/tei0259/CE 387/HW8/sv/argmax.sv} 94 8 94 14
+state_output COLLECT {state[1]} 1
+
+define_state HOLD_OUTPUT 10 {/home/tei0259/CE 387/HW8/sv/argmax.sv} 115 8 115 18
+state_output HOLD_OUTPUT {state[2]} 1
+
+fsm_options -resetState IDLE
+
+define_transition HOLD_OUTPUT HOLD_OUTPUT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = 0------}
+define_transition COLLECT HOLD_OUTPUT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = -10010-}
+define_transition COLLECT COLLECT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = ---1---}
+define_transition COLLECT COLLECT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = --1----}
+define_transition COLLECT COLLECT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = -----1-}
+define_transition COLLECT COLLECT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = -0-----}
+define_transition COLLECT COLLECT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = ----0--}
+define_transition IDLE COLLECT {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = -----01}
+define_transition HOLD_OUTPUT IDLE {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = 1------}
+define_transition IDLE IDLE {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = -----1-}
+define_transition IDLE IDLE {out_rd_en,class_count[0],class_count[1],class_count[2],class_count[3],x_empty,out_empty = ------0}
+fsm_options -SRSPath {/home/tei0259/CE 387/HW8/syn/rev_1/synwork/top_nn_mult.srs}
+fsm_options -SRSTime 1772926339
+fsm_options -FSMPath {u_argmax.state[2:0]}
+fsm_options -view {work.argmax_32s_10s_4s_4s_u_argmax.verilog|i:state[2:0]}
+fsm_options -ID {14390391}
